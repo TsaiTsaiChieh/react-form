@@ -5,7 +5,7 @@ const FormInput = (props) => {
     <div className='formInput'>
       {/* <label>Username</label> */}
       <input placeholder={props.placeholder}
-        ref={props.refer} />
+        name={props.name} />
     </div>
   )
 }
