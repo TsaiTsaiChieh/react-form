@@ -5,7 +5,7 @@ const FormInput = (props) => {
     <div className='formInput'>
       {/* <label>Username</label> */}
       <input placeholder={props.placeholder}
-        onChange={(e) => props.setUsername(e.target.value)} />
+        ref={props.refer} />
     </div>
   )
 }
